@@ -17,7 +17,7 @@ def num_shutdowns(logfile):
     """
     Counts the number of shutdowns occuerneces in the provided log file
     """
-    return len(get_shutdown_events(logfile)))
+    return len(get_shutdown_events(logfile))
 
 
 # >>>> The code below will call your function and print the results
